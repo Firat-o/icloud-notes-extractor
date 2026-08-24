@@ -1,7 +1,7 @@
 # icloud-notes-extractor
 
 **Das Problem:**
-Es gibt aktuell keine schnelle Möglichkeit, alle iCloud Notizen auf einmal zu exportieren. Die offizielle DSGVO-Datenanfrage bei Apple dauert mehrere Tage. Web-Scraping (z.B. mit Selenium) im Browser zu nutzen, ist ineffizient und riskiert Blockaden durch Apples Anti-Bot-Systeme.
+Es gibt aktuell keine *mir bekannte* schnelle Möglichkeit, alle iCloud Notizen auf einmal zu exportieren. Die offizielle DSGVO-Datenanfrage bei Apple dauert mehrere Tage. Web-Scraping (z.B. mit Selenium) im Browser zu nutzen, riskiert Blockaden durch Apples Anti-Bot-Systeme.
 
 **Die Lösung:**
 Ein simples Python-Skript, das im Hintergrund läuft und die lokale Zwischenablage überwacht. Man geht die Notizen manuell im Browser durch, kopiert sie, und das Skript erstellt automatisch saubere Markdown-Dateien (.md) im Zielordner.
